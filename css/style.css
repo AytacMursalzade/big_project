@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.first{
+    width: 100%;
+    height: 92px;
+    position: relative;
+    display: block;
+    
+    background-color: white;
+}
+
+.content_1{
+    width: 71%;
+    height: 92px;
+    background-color: white;
+    position: absolute;
+    left: 176px;
+    
+}
+.name_one{
+    width: 20%;
+    height: 92px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    font-size: 32px;
+    background-color: #4AAAA5;
+}
+.name_one p{
+    padding: 10px;
+    color: white;
+}
+
+
+
+.ul_li ul li{
+    font-size: 21px;
+    padding-left: 40px;
+    float: right;
+    list-style-type: none;
+    margin: 35px 8px 0px 0px;
+    color: #999BB4;
+}
+
+.ul_li a{
+    text-decoration: none;
+    
+}
+
+.main_div{
+    width: 100%;
+    height: 970px;
+    background-color: #EEEEEE;
+    position: relative;
+    
+}
+.about_container{
+    width: 45%;
+    min-height: 188px;
+    background-color: white;
+    position: absolute;
+    left: 176px;
+    margin-top: 32px;
+}
+.list_items{
+    margin-left: 14px;
+
+}
+.list_items div{
+    width: 266px;
+    height: 199px;
+    background-color: rgb(87, 22, 122);
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 7px;
+    margin-top: 40px;
+   
+}
+.list_items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aside_container{
+    width: 45%;
+    min-height: 565px;
+    background-color: white;
+    position: absolute;
+    left: 176px;
+    margin-top: 32px;
+}
+
+.Portfolio_div{
+    width: 91%;
+    height: 92px;
+    background-color: white;
+    text-align: left;
+    border-bottom: 3px solid #e2dfdf;
+    margin-left: 22px;
+    
+}
+.photo_div{
+    width: 91%;
+    height: 92px;
+    background-color: white;
+    text-align: left;
+    border-bottom: 3px solid #e2dfdf;
+    margin-left: 22px;
+}
+.photo_div h1{
+    padding: 30px 2px;
+    font-size: 30px;
+    color: #47AAA5;
+}
+/* .photo_main p{
+    justify-content: center;
+} */
+.photo_main{
+    width: 36%;
+    height: 168px;
+    margin-top: 30px;
+    margin-left: 22px;
+    display: inline-block;
+}
+.photo_main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.about_div{
+    width: 91%;
+    height: 92px;
+    background-color: white;
+    text-align: left;
+    border-bottom: 3px solid #e2dfdf;
+    margin-left: 22px;
+}
+.about_div h6{
+    padding: 30px 2px;
+    font-size: 30px;
+    color: #47AAA5;
+    
+}
+.Portfolio_div h6{
+    padding: 15px 15px;
+    font-size: 38px;
+    color: #47AAA5;
+    
+}
+.p_tag{
+    padding: 28px 30px;
+    font-size: small;
+    color: #999BB4;
+}
+.section_small{
+    width: 20%;
+    height: 203px;
+    background-color: white;
+    float: right;
+    margin: 33px 241px;
+    position: relative;
+}
+.blc_div{
+    width: 100%;
+    height: 71px;
+    display: block;
+    background-color: white;
+}
+.section_h1{
+    width: 79%;
+    height: 71px;
+    text-align: center;
+    border-bottom: 3px solid #e2dfdf;
+    position: absolute;
+    left: 22px;
+    
+}
+.section_h1 h1{
+    padding-top: 22px;
+    font-size: 28px;
+    color: #47AAA5;
+}
+.section_div{
+    width: 100%;
+    height: 132px;
+    background-color: white;
+}
+.img1_block  img{
+    width: 63px;
+    height: 63px;
+    object-fit: cover;
+}
+.section_div .img1_block{
+    display: inline-block;
+    margin-top: 26px;
+    margin-left: 17px;
+}
+form{
+    margin-left: 22px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+form label{
+    font-size: large;
+    color: #666666;
+}
+form input{
+    border-color: #dcd8d8;
+    border-radius: 3px;
+    padding: 7px;
+    color: #a09797;
+}
+form  input{
+    width: 94%;
+}
+#aboutone{
+    background-color: #4AAAA5;
+    width: 102px;
+    height: 42px;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+    border-color: #47AAA5;
+}
+.ftr{
+    width: 100%;
+    height: 105px;
+    background-color: #666666;
+    text-align: center;
+    border-top: 10px solid #4AAAA5;
+}
+
+.ftr h6{
+    color: white;
+    padding: 43px;
+}
