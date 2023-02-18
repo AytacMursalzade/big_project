@@ -18,7 +18,9 @@
     background-color: white;
     position: absolute;
     left: 176px;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .name_one{
     width: 20%;
@@ -34,12 +36,17 @@
     color: white;
 }
 
-
-
+.content_1 .ul_li{
+    margin-right: 17px;
+}
 .ul_li ul li{
     font-size: 21px;
-    padding-left: 40px;
-    float: right;
+    /* padding-left: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    /* float: right; */
     list-style-type: none;
     margin: 35px 8px 0px 0px;
     color: #999BB4;
@@ -115,15 +122,21 @@
     font-size: 30px;
     color: #47AAA5;
 }
-/* .photo_main p{
-    justify-content: center;
-} */
+
 .photo_main{
     width: 36%;
     height: 168px;
     margin-top: 30px;
     margin-left: 22px;
     display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.img_write p{
+    padding-left: 10px;
+    text-align: justify;
 }
 .photo_main img{
     width: 100%;
